@@ -18,6 +18,36 @@ class HomePage extends StatelessWidget {
         ),
         centerTitle: true,
       ),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            const Text(
+              'Joshua Payoran', 
+              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+            ),
+            const SizedBox(height: 10),
+            const Text(
+              '"When nothing goes right, go left."', 
+              style: TextStyle(fontSize: 16, fontStyle: FontStyle.italic),
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 20),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  width: 100,
+                  height: 100,
+                  color: Colors.blue, 
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
