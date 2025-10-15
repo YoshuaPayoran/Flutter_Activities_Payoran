@@ -14,9 +14,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        fontFamily: 'Poppins'
+        fontFamily: 'Poppins',
+        brightness: Brightness.dark,
       ),
-      home: HomePage()
+      home: const HomePage()
     );
   }
 }

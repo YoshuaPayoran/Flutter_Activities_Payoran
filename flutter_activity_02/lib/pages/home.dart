@@ -5,6 +5,19 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold (
+      appBar: AppBar(
+        backgroundColor: Colors.purple,
+        title: Text(
+          'Activity 2',
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 18,
+            fontWeight: FontWeight.bold
+          ),
+        ),
+        centerTitle: true,
+      ),
+    );
   }
 }
