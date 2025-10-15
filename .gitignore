@@ -1,0 +1,16 @@
+# Flutter / Dart
+**/.dart_tool/
+**/build/
+**/.packages
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.metadata
+**/.idea/
+
+# iOS
+**/Pods/
+**/ios/Flutter/Flutter.podspec
+
+# Android
+**/android/.gradle/
+**/android/local.properties
