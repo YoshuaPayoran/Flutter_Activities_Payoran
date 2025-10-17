@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_activity_04/pages/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Poppins', 
         brightness: Brightness.dark
       ),
+      home: const HomePage(),
     );
   }
 }
