@@ -26,9 +26,9 @@ class _CounterPageState extends State<CounterPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.deepPurple,
         title: const Text(
-          'Activity 8: Counter App',
+          'Activity 8',
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
@@ -47,7 +47,7 @@ class _CounterPageState extends State<CounterPage> {
               style: const TextStyle(
                 fontSize: 50,
                 fontWeight: FontWeight.bold,
-                color: Colors.lime,
+                color: Colors.deepPurple,
               ),
             ),
 
@@ -76,7 +76,7 @@ class _CounterPageState extends State<CounterPage> {
 
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.deepPurple,
         child: const Icon(Icons.add, size: 30),
       ),
     );
