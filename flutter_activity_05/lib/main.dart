@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_activity_05/pages/screen_one.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Poppins',
         brightness: Brightness.dark,
       ),
+      home: const ScreenOne(),
     );
   }
 }
