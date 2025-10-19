@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'about.dart';
 import 'skills.dart';
+import 'projects.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -17,6 +18,7 @@ class _HomeState extends State<Home> {
   static const List<Widget> _pages = <Widget>[
     AboutPage(),
     SkillPage(),
+    ProjectsPage(),
   ];
 
   void _onItemTapped(int index) {
